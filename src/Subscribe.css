@@ -1,0 +1,24 @@
+.sub{
+     background-color: rgb(143, 135, 135);
+     display: flex;
+     padding: 20px;
+     justify-content: space-between;
+}
+.btn{
+    background-color: red;
+    color:aliceblue;
+    padding:20px;
+    border-radius: 10px;
+    border:none;
+    font-family: "RocknRoll One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    margin-left:10px;
+}

@@ -1,0 +1,25 @@
+.more{
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
+   gap:50px 30px;
+}
+.digest{
+   width:150px;
+   height:150px;
+   object-fit: contain;
+}
+.foot{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: black;
+   color: aliceblue;
+}
+.sm{
+   padding:10px;
+}
+.cr{
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(143, 135, 135);
+   padding: 8px;
+}

@@ -1,0 +1,56 @@
+.h{
+    background-color: black;
+    color: aliceblue;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1;     
+}
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.dmy{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+}
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dt{
+    padding-left: 10px;
+}
+.si{
+    display: flex;
+}
+.si:hover{
+    cursor: pointer;
+}
+.acc{
+    padding-right:10px;
+}
+.ho{
+    border:none;
+    background:none;
+    color:aliceblue;
+}
+.m{
+    border:none;
+    background:none;
+    color: aliceblue;
+}
+.ho:hover{
+    cursor: pointer;
+}
+.m:hover{
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,40 @@
+.homeee{
+    padding:30px;
+    margin-top:50px;
+}
+.qoutes{
+    font-size: 50px;
+}
+.surr{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+
+}
+.exp{
+    background-color: red;
+    color:aliceblue;
+    padding:20px;
+    border-radius: 10px;
+    border:none;
+    font-family: "RocknRoll One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.exp:hover{
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.q{
+    text-align: center;
+    margin:20px;
+    padding:20px;
+}
+.points{
+    display: inline;
+}
