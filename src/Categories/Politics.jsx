@@ -16,6 +16,7 @@ function Politics(){
                 console.log(articles);
             }
             catch(error){
+              
                 console.error(error);
             }
         }

@@ -20,7 +20,7 @@ function News(){
             }
         }
         api();
-      },[]);
+      });
       return(
         <div className="news">
           {

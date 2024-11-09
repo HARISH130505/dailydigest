@@ -4,6 +4,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menubar from './Menubar';
+import { Link } from 'react-router-dom';
 function Header(){
    const [date,setDate]=useState(new Date());
    const[time,setTime]=useState(new Date());
@@ -32,7 +33,9 @@ function Header(){
             </div>
             <ul>
                 <li>
+                    <Link to="/">
                     <button className='ho'><HomeRoundedIcon/></button>  
+                    </Link>
                 </li>
                 <li> <div className='si'><AccountCircleIcon className='acc'/>Sign In</div></li>
                 <li>
